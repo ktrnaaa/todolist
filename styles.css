@@ -1,0 +1,79 @@
+ul {
+  list-style-type: none;
+}
+/* styles.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-task-block {
+  margin-bottom: 20px;
+}
+
+.task-title {
+  margin-top: 0;
+}
+
+.input-field {
+  margin-bottom: 10px;
+}
+
+.task-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.collection {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.collection-item:last-child {
+  border-bottom: none;
+}
+
+.delete-item,
+.edit-item {
+  color: #F44336;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.clear-tasks {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #F44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
